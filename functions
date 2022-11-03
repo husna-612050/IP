@@ -1,0 +1,31 @@
+function add() {
+let a = 7,b = 5;
+console.log(`The addition using normal fuction without paramater is ${a + 
+b}`);
+}
+add();
+function add2(a, b) {
+console.log(`The addition using normal fuction with paramater is ${a + b}`);
+}
+add2(55, 87);
+const arrowAdd = () => {
+let a = 64,b = 36;
+console.log(`The addition using arrow fuction without parameter is ${a + 
+b}`);
+};
+arrowAdd();
+const arrowAdd2 = (a, b) => {
+console.log(`The addition using arrow fuction with parameter is ${a + b}`);
+};
+arrowAdd2(25, 75);
+const anonymousAdd = function () {
+let a = 32,b = 88;
+return `The addition using anonymous fuction without parameter is ${a + b}`;
+};
+let x = anonymousAdd();
+console.log(x);
+const anonymousAdd2 = function (a, b) {
+return `The addition using anonymous fuction with parameter is ${a + b}`;
+};
+let y = anonymousAdd2(31, 9);
+console.log(y);
